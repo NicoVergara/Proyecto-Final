@@ -9,7 +9,7 @@ Este repositorio contiene un template para el desarrollo de un portafolio, es mu
 * Bootstrap
 * Sass
 
-## Contents
+## Contenido
 
 - [General](#general)
 - [Images](#images)
