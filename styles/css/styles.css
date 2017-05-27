@@ -17,15 +17,18 @@
         04. Navbar Styles
         05. About Styles
         06. Services Styles
-        07. Contact Styles
-        08. Footer Styles
-        09. Media Queries
+        07. Work Proccess Styles
+        08. Contact Styles
+        09. Footer Styles
+        10. Media Queries
 */
 /*
     -------------------------
     ----- 01. Variables -----
     -------------------------
 */
+/* Paleta de Colores */
+/* Tipografía */
 /*
     -------------------------
     ------ 02. Mixins -------
@@ -53,13 +56,118 @@
 */
 /*
     -------------------------
-    ----- 07. Contact -------
+    ----- 07. Work ----------
     -------------------------
 */
 /*
     -------------------------
-    ----- 08. Footer --------
+    ----- 08. Contact -------
     -------------------------
 */
+.pg-contact {
+  padding: 90px; }
+
+.section-title2 {
+  padding: 0 !important;
+  margin: 45px !important;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+  color: #2a2b2f; }
+
+.ci-content {
+  position: relative;
+  padding-left: 65px; }
+
+.ci-icon {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  color: #6b6d6f;
+  font-size: 35px; }
+
+.ci-text {
+  padding: 16px 0 18px; }
+
+.ci-text h3 {
+  color: #2a2b2f;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0; }
+
+.ci-text p {
+  margin: 0;
+  font-size: 13px; }
+
+#contact-form {
+  margin-top: 10px; }
+  #contact-form textarea {
+    margin-top: 10px; }
+
+.form-control {
+  border-radius: 0;
+  height: auto;
+  box-shadow: none !important; }
+
+input, textarea, select, .login-select, .form-control {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  background: transparent;
+  color: #2a2bbf;
+  font-size: 13px;
+  margin: 0;
+  outline: medium none;
+  padding: 8px 20px 8px 0; }
+
+.send-button {
+  font-size: 12px;
+  color: #fff;
+  background-color: #2a2b2f;
+  padding: 10px 37px;
+  margin-top: 40px !important;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 0.5px; }
+  .send-button:hover {
+    background-color: #767676; }
+
+/*
+    -------------------------
+    ----- 09. Footer --------
+    -------------------------
+*/
+.footer {
+  background-color: #a5a5aF; }
+
+.pg-footer {
+  padding: 50px; }
+
+.footer-social {
+  padding-bottom: 7px; }
+  .footer-social a {
+    padding: 9px !important;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none; }
+    .footer-social a:hover {
+      color: #767676; }
+
+.right {
+  float: right; }
+
+.footer-icon {
+  font-size: 14px;
+  color: #2a2b2f; }
+  .footer-icon p {
+    color: #FAFAFA; }
+
+.left {
+  float: left; }
 
 /*# sourceMappingURL=styles.css.map */
