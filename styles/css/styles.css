@@ -47,6 +47,12 @@ ul {
   list-style: none;
   text-decoration: none; }
 
+.page-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
 /*
     -------------------------
     ----- 04. Navbar --------
@@ -57,22 +63,17 @@ ul {
     ----- 05. About ---------
     -------------------------
 */
-.about {
-  width: 100%;
-  display: block;
+.about .title-content {
   position: relative;
-  overflow: hidden; }
-  .about .title-content {
-    position: relative;
-    padding: 10px 10px 10px 55px;
-    margin-bottom: 7px; }
-  .about .box-about {
-    margin-top: 25px; }
-    .about .box-about .box-icon-about {
-      position: absolute;
-      left: 0;
-      font-size: 35px;
-      top: 28px; }
+  padding: 10px 10px 10px 55px;
+  margin-bottom: 7px; }
+.about .box-about {
+  margin-top: 25px; }
+  .about .box-about .box-icon-about {
+    position: absolute;
+    left: 0;
+    font-size: 35px;
+    top: 28px; }
 
 .pg-about {
   padding-top: 100px;
@@ -206,31 +207,6 @@ ul {
     ----- 08. Recent-Work ---
     -------------------------
 */
-/*.port-image-overlay {
-  position: relative;
-  overflow: hidden;
-  .port-main-img {
-    display: block;
-    width: 100%;
-  }
-}
-
-.port-cont-overlay {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  .title-img-port {
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}*/
 /*
     -------------------------
     ----- 09. Contact -------
