@@ -277,6 +277,26 @@ ul{
     ----- 08. Recent-Work ---
     -------------------------
 */
+.pt-recent {
+  padding: 30px;
+}
+
+.port-filter {
+  margin: 0 0 45px;
+  padding: 0;
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+    li {
+      display: inline-block;
+      a {
+        margin-right: 15px;
+        color: #6b6d6f;
+      }
+    }
+  }
+}
 
 
 /*
