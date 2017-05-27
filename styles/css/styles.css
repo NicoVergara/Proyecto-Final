@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/*
     Título: Diseño Web - Proyecto Final
     Autor: Nicolás Vergara
     Repositorio: https://github.com/NicoVergara/Proyecto-Final
@@ -18,9 +18,10 @@
         05. About Styles
         06. Services Styles
         07. Work Proccess Styles
-        08. Contact Styles
-        09. Footer Styles
-        10. Media Queries
+        08. Recent Work Styles
+        09. Contact Styles
+        10. Footer Styles
+        11. Media Queries
 */
 /*
     -------------------------
@@ -207,7 +208,12 @@ h3 {
 
 /*
     -------------------------
-    ----- 08. Contact -------
+    ----- 08. Recent-Work ---
+    -------------------------
+*/
+/*
+    -------------------------
+    ----- 09. Contact -------
     -------------------------
 */
 .pg-contact {
@@ -283,7 +289,7 @@ input, textarea, select, .login-select, .form-control {
 
 /*
     -------------------------
-    ----- 09. Footer --------
+    ----- 10. Footer --------
     -------------------------
 */
 .footer {
