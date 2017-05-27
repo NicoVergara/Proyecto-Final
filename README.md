@@ -18,5 +18,6 @@ Este repositorio contiene un template para el desarrollo de un portafolio, es mu
 - [About Section](#about-section)
 - [Services Section](#services-section)
 - [Work Proccess Section](#work_proccess-section)
+- [Recent Work Section](#recent-work-section)
 - [Contact Section](#contact-section)
 - [Footer Section](#footer-section)
