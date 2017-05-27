@@ -55,7 +55,10 @@ $font-body: 'Montserrat', sans-serif;
 body{
   font-family: $font-body;
 }
-
+ul{
+  list-style: none;
+  text-decoration: none;
+}
 
 /*
     -------------------------
@@ -133,7 +136,7 @@ body{
 }
 
 .box {
-  margin-top: 25px;
+  margin-top: 30px;
   .section-title2{
   }
   .title-content-service {

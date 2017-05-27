@@ -43,6 +43,10 @@
 body {
   font-family: "Montserrat", sans-serif; }
 
+ul {
+  list-style: none;
+  text-decoration: none; }
+
 /*
     -------------------------
     ----- 04. Navbar --------
@@ -105,7 +109,7 @@ body {
   top: 23px; }
 
 .box {
-  margin-top: 25px; }
+  margin-top: 30px; }
   .box .title-content-service {
     position: relative;
     padding: 10px 10px 10px 55px;
