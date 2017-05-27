@@ -37,7 +37,7 @@ $icon-grey: #2a2b2f;
 $hover-color: #767676;
 
 /* Tipografía */
-
+$font-body: 'Montserrat', sans-serif;
 
 /*
     -------------------------
@@ -51,7 +51,9 @@ $hover-color: #767676;
     ----- 03. Global --------
     -------------------------
 */
-
+body{
+  font-family: $font-body;
+}
 
 /*
     -------------------------
@@ -65,8 +67,40 @@ $hover-color: #767676;
     ----- 05. About ---------
     -------------------------
 */
-.about{
+.about {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  .title-content{
+    position: relative;
+    padding: 10px 10px 10px 55px;
+    margin-bottom: 7px;
+  }
+  .box-about{
+    margin-top: 25px;
+  .box-icon-about{
+    position: absolute;
+    left: 0;
+    font-size: 35px;
+    top:28px;
+  }
+  }
+}
 
+.pg-about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+ img{
+  max-width: 100%;
+ }
+}
+
+.main-title {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 50px;
 }
 
 
@@ -75,8 +109,38 @@ $hover-color: #767676;
     ----- 06. Services ------
     -------------------------
 */
-.services{
+.services {
+  background-color: $feather;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
 
+.pg-serv {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.box-icon {
+  position: absolute;
+  left: 0;
+  color: $icon-grey;
+  font-size: 35px;
+  top:23px;
+}
+
+.box {
+  margin-top: 25px;
+  .section-title2{
+  }
+  .title-content-service {
+    position: relative;
+    padding: 10px 10px 10px 55px;
+    margin-bottom: 7px;
+  }
+  .tab-text{
+  }
 }
 
 
@@ -85,8 +149,121 @@ $hover-color: #767676;
     ----- 07. Work ----------
     -------------------------
 */
-.work-procces{
+.pt-work {
 
+}
+
+.back-style-cont {
+  background-color: #eee;
+  padding: 35px 0;
+}
+
+.work-proc2-cont {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 45px 20px 20px 98px;
+  position: relative;
+
+  h3 {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .font-montserrat {
+    font-weight: bold;
+  }
+}
+
+.work-proc2-icon-cont {
+  color: #2a2b2f;
+  font-size: 60px;
+  font-weight: 700;
+  left: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 55px;
+}
+
+.work-proc2-a-cont {
+  margin: 0 auto;
+  max-width: 320px;
+  position: relative;
+
+  a {
+    color: black;
+  }
+
+  &:focus,
+  &:hover {
+    color: #2a2b2f;
+  }
+
+  &:focus .work-proc2-a-text,
+  &:hover .work-proc2-a-text {
+    color: #2a2b2f;
+  }
+
+  &:focus .work-proc2-a-text,
+  &:hover .work-proc2-a-text {
+    left: 30px;
+    -webkit-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -khtml-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -moz-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -ms-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -o-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  }
+
+  &:focus .work-proc2-bg-block,
+  &:hover .work-proc2-bg-block {
+    background: #5bd3be;
+    -webkit-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -khtml-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -moz-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -ms-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -o-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  }
+
+  .work-proc2-a {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .work-proc2-a-text {
+    left: 0;
+    position: absolute;
+    top: 44px;
+    -webkit-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -khtml-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -moz-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -ms-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -o-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  }
+
+  .work-proc2-bg-block {
+    background: #2ed069;
+    height: 200px;
+    margin-left: 60px;
+    width: 200px;
+    -webkit-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -khtml-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -moz-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -ms-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -o-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  }
+
+  .border-bot {
+    border-bottom: 3px solid black;
+  }
 }
 
 
@@ -100,7 +277,7 @@ $hover-color: #767676;
 }
 
 .pg-contact {
-  padding: 90px;
+  padding: 60px 0 100px 0;
 }
 
 .section-title2 {
@@ -108,7 +285,7 @@ $hover-color: #767676;
   margin: 45px !important;
   font-size: 32px;
   font-weight: normal;
-  line-height: 40px;
+  line-height: 20px;
   color: #2a2b2f;
 }
 
@@ -156,7 +333,6 @@ $hover-color: #767676;
 }
 
 input, textarea, select, .login-select, .form-control {
-  font-family: 'Montserrat', sans-serif;
   border: none;
   border-bottom: 1px solid #ccc;
   border-radius: 0px;
