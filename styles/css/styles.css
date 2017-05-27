@@ -47,6 +47,10 @@ ul {
   list-style: none;
   text-decoration: none; }
 
+.img {
+  width: 100%;
+  height: auto; }
+
 .page-section {
   width: 100%;
   display: block;
@@ -99,7 +103,7 @@ ul {
   overflow: hidden; }
 
 .pg-serv {
-  padding-top: 100px;
+  padding-top: 110px;
   padding-bottom: 160px; }
 
 .box-icon {
@@ -110,7 +114,7 @@ ul {
   top: 23px; }
 
 .box {
-  margin-top: 30px; }
+  /*margin-top: 30px;*/ }
   .box .title-content-service {
     position: relative;
     padding: 10px 10px 10px 55px;
@@ -207,6 +211,28 @@ ul {
     ----- 08. Recent-Work ---
     -------------------------
 */
+.port-filter {
+  list-style: none;
+  padding: 0;
+  /*margin: 0 0 45px 0;*/
+  cursor: default; }
+
+.port-filter li {
+  display: inline-block; }
+
+.port-filter a {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  color: #6b6d6f;
+  text-decoration: none; }
+
+.port-main-img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1); }
+
 /*
     -------------------------
     ----- 09. Contact -------
@@ -215,9 +241,11 @@ ul {
 .pg-contact {
   padding: 70px 0 120px 0; }
 
-.section-title2 {
-  padding: 0 !important;
-  margin: 45px !important;
+.section-title-contact {
+  /*padding: 0 !important;
+  margin: 45px !important;*/
+  padding-top: 20px;
+  padding-bottom: 50px;
   font-weight: normal;
   line-height: 20px;
   color: #2a2b2f; }

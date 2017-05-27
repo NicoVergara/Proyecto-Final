@@ -52,12 +52,18 @@ $font-body: 'Montserrat', sans-serif;
     ----- 03. Global --------
     -------------------------
 */
-body{
+body {
   font-family: $font-body;
 }
-ul{
+
+ul {
   list-style: none;
   text-decoration: none;
+}
+
+.img {
+  width: 100%;
+  height: auto; 
 }
 
 .page-section  {
@@ -66,6 +72,7 @@ ul{
   position: relative;
   overflow: hidden;
 }
+
 
 /*
     -------------------------
@@ -126,7 +133,7 @@ ul{
 }
 
 .pg-serv {
-  padding-top: 100px;
+  padding-top: 110px;
   padding-bottom: 160px;
 }
 
@@ -139,15 +146,14 @@ ul{
 }
 
 .box {
-  margin-top: 30px;
-  .section-title2{
+  /*margin-top: 30px;*/
+  .section-title-serv {
+
   }
   .title-content-service {
     position: relative;
     padding: 10px 10px 10px 55px;
     margin-bottom: 7px;
-  }
-  .tab-text{
   }
 }
 
@@ -280,8 +286,29 @@ ul{
     ----- 08. Recent-Work ---
     -------------------------
 */
+.port-filter{
+	list-style: none;
+	padding: 0;
+	/*margin: 0 0 45px 0;*/
+	cursor: default;
+}
+.port-filter li{
+  display:inline-block;
+}
+.port-filter a{
+	display: inline-block;
+	margin-right: 20px;
+  margin-bottom:5px;
+	color: #6b6d6f;
+	text-decoration: none;
+}
 
-
+.port-main-img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.3,.1,.58,1);
+}
 
 /*
     -------------------------
@@ -296,9 +323,11 @@ ul{
   padding: 70px 0 120px 0;
 }
 
-.section-title2 {
-  padding: 0 !important;
-  margin: 45px !important;
+.section-title-contact {
+  /*padding: 0 !important;
+  margin: 45px !important;*/
+  padding-top: 20px;
+  padding-bottom: 50px;
   font-weight: normal;
   line-height: 20px;
   color: #2a2b2f;
