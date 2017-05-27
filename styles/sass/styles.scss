@@ -32,7 +32,7 @@
 $feather: #77C9d4;
 $marine: #57bc90;
 $forest: #015249;
-$sleek-grey: #a5a5aF;
+$sleek-grey: #eee;
 $icon-grey: #2a2b2f;
 $hover-color: #767676;
 
@@ -53,6 +53,18 @@ $font-body: 'Montserrat', sans-serif;
 */
 body{
   font-family: $font-body;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 30;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 /*
@@ -98,7 +110,7 @@ body{
 }
 
 .main-title {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 50px;
 }
@@ -296,7 +308,7 @@ body{
 
 .ci-icon {
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 0;
   color: #6b6d6f;
   font-size: 35px;
@@ -382,7 +394,7 @@ input, textarea, select, .login-select, .form-control {
   a {
     padding: 9px !important;
     font-size: 16px;
-    color: #fff;
+    color: #2a2b2f;
     text-decoration: none;
 
     &:hover{
@@ -400,7 +412,7 @@ input, textarea, select, .login-select, .form-control {
   color: $icon-grey;
 
   p {
-    color: #FAFAFA;
+    color: #2a2b2f;
   }
 }
 
