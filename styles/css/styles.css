@@ -221,6 +221,31 @@ ul {
         margin-right: 15px;
         color: #6b6d6f; }
 
+.port-item {
+  padding-bottom: 15px; }
+
+.port-image-overlay {
+  position: relative;
+  overflow: hidden; }
+  .port-image-overlay .port-main-img {
+    display: block;
+    width: 100%; }
+
+.port-cont-overlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+  .port-cont-overlay .title-img-port {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
 /*
     -------------------------
     ----- 09. Contact -------
