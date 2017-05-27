@@ -293,112 +293,125 @@
   </section>
   <!-- End Work Process -->
 
-  <!-- Start Recent Work -->
-  <section id="recent-work" class="recent-work pt-recent">
-    <div class="container">
-      <div class="row">
-        <!-- Title -->
-        <div class="title-content">
-          <h2 class="section-title2"><strong>Trabajos Recientes</strong></h2>
-        </div>
-        <!-- Portfolio Filter -->
-        <div class="port-filter">
-          <ul>
-            <li><a href="#" class="filter-active">Todos los Proyectos</a></li>
-            <li><a href="#">Diseño</a></li>
-            <li><a href="#">Desarrollo</a></li>
-            <li><a href="#">Fotografía</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- Start Grid -->
-      <div class="port-grid" id="items-grid">
-        <div class="row">
-          <!-- Item 1 -->
-          <div class="port-item col-md-4">
-            <a href="#">
-              <div class="port-image-overlay">
-                <img class="port-main-img" src="images/portfolio/img-port-1.jpg" alt="img-portfolio">
-              </div>
-              <div class="port-cont-overlay">
-                <div class="title-img-port">
-                  <h6>Minimalism</h6>
-                </div>
-              </div>
-            </a>
+  <!-- Start Portfolio -->
+  <div id="portfolio" class="page-section">
+    <div class="relative">
+
+      <div class="container">
+        <div class="pt-80-b-30-cont">
+          <!-- Title-->
+          <div class="mb-10">
+            <h2 class="section-title2"><strong>Recent Works</strong></h2>
           </div>
-          <!-- Item 2 -->
-          <div class="port-item col-md-4">
-            <a href="#">
-              <div class="port-image-overlay">
-                <img class="port-main-img" src="images/portfolio/img-port-2.jpg" alt="img-portfolio">
-              </div>
-              <div class="port-cont-overlay">
-                <div class="title-img-port">
-                  <h6>Black Bridge</h6>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Item 3 -->
-          <div class="port-item col-md-4">
-            <a href="#">
-              <div class="port-image-overlay">
-                <img class="port-main-img" src="images/portfolio/img-port-3.jpg" alt="img-portfolio">
-              </div>
-              <div class="port-cont-overlay">
-                <div class="title-img-port">
-                  <h6>Brochure Design</h6>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Item 4 -->
-          <div class="port-item col-md-4">
-            <a href="#">
-              <div class="port-image-overlay">
-                <img class="port-main-img" src="images/portfolio/img-port-3.jpg" alt="img-portfolio">
-              </div>
-              <div class="port-cont-overlay">
-                <div class="title-img-port">
-                  <h6>Brochure Design</h6>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Item 5 -->
-          <div class="port-item col-md-4">
-            <a href="#">
-              <div class="port-image-overlay">
-                <img class="port-main-img" src="images/portfolio/img-port-2.jpg" alt="img-portfolio">
-              </div>
-              <div class="port-cont-overlay">
-                <div class="title-img-port">
-                  <h6>Black Bridge</h6>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Item 6 -->
-          <div class="port-item col-md-4">
-            <a href="#">
-              <div class="port-image-overlay">
-                <img class="port-main-img" src="images/portfolio/img-port-1.jpg" alt="img-portfolio">
-              </div>
-              <div class="port-cont-overlay">
-                <div class="title-img-port">
-                  <h6>Minimalism</h6>
-                </div>
-              </div>
-            </a>
+          <!-- Portfolio Filter -->
+          <div class="pl-xxs-10">
+            <ul class="port-filter font-poppins">
+              <li><a href="#" class="filter active" data-filter="*">Todos los Proyectos</a></li>
+              <li><a href="#" class="filter" data-filter=".development">Diseño</a></li>
+             	<li><a href="#" class="filter" data-filter=".design">Desarrollo</a></li>
+             	<li><a href="#" class="filter" data-filter=".photography">Fotografía</a></li>
+             </ul>
           </div>
 
         </div>
       </div>
-      <!-- End Grid -->
+      <!-- Items Grid -->
+      <ul class="port-grid port-grid-3 clearfix" id="items-grid">
+        <!-- Item 1 -->
+        <li class="port-item mix design">
+          <a href="portfolio-single1.html">
+            <div class="port-img-overlay">
+              <img class="port-main-img" src="images/portfolio/img-port-1.jpg" alt="img-portfolio" >
+            </div>
+            <div class="port-overlay-cont">
+              <div class="port-title-cont2">
+                <h3>Minimalism</h3>
+                <span>design</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <!-- Item 2 -->
+        <li class="port-item mix photography">
+          <a href="portfolio-single1.html">
+            <div class="port-img-overlay">
+              <img class="port-main-img" src="images/portfolio/img-port-2.jpg" alt="img-portfolio" >
+            </div>
+            <div class="port-overlay-cont">
+              <div class="port-title-cont2">
+                <h3>Iceland Beach</h3>
+                <span>photography</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <!-- Item 3 -->
+        <li class="port-item mix photography">
+          <a href="portfolio-single1.html">
+            <div class="port-img-overlay">
+              <img class="port-main-img" src="images/portfolio/img-port-3.jpg" alt="img-portfolio" >
+            </div>
+            <div class="port-overlay-cont">
+              <div class="port-title-cont2">
+                <h3>Metal Bridge</h3>
+                <span>photography</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <!-- Item 4 -->
+        <li class="port-item mix photography">
+          <a href="portfolio-single1.html">
+            <div class="port-img-overlay">
+              <img class="port-main-img" src="images/portfolio/img-port-4.jpg" alt="img-portfolio" >
+            </div>
+            <div class="port-overlay-cont">
+              <div class="port-title-cont2">
+                <h3>Black White Surfer</h3>
+                <span>photography</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <!-- Item 5 -->
+        <li class="port-item mix development">
+          <a href="portfolio-single1.html">
+            <div class="port-img-overlay">
+              <img class="port-main-img" src="images/portfolio/img-port-5.jpg" alt="img-portfolio" >
+            </div>
+            <div class="port-overlay-cont">
+              <div class="port-title-cont2">
+                <h3>Minimalist Watches</h3>
+                <span>development</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <!-- Item 6 -->
+        <li class="port-item mix photography">
+          <a href="portfolio-single1.html">
+            <div class="port-img-overlay">
+              <img class="port-main-img" src="images/portfolio/img-port-6.jpg" alt="img-portfolio" >
+            </div>
+            <div class="port-overlay-cont">
+              <div class="port-title-cont2">
+                <h3>Swimming Pool</h3>
+                <span>photography</span>
+              </div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+
     </div>
-  </section>
-  <!-- End Recent Work -->
+  </div>
+  <!-- View More Projects  -->
+  <div class="port-view-more-cont">
+    <a class="port-view-more" href="portfolio-masonry-4col.html">Ver Todos los Proyectos</a>
+  </div>
+  <!-- End Portfolio -->
+
 
   <!-- Start Contact -->
   <section id="contact" class="contact pg-contact">

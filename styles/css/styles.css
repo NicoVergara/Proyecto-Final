@@ -206,30 +206,14 @@ ul {
     ----- 08. Recent-Work ---
     -------------------------
 */
-.pt-recent {
-  padding: 30px; }
-
-.port-filter {
-  margin: 0 0 45px;
-  padding: 0; }
-  .port-filter ul {
-    list-style: none;
-    text-decoration: none; }
-    .port-filter ul li {
-      display: inline-block; }
-      .port-filter ul li a {
-        margin-right: 15px;
-        color: #6b6d6f; }
-
-.port-item {
-  padding-bottom: 15px; }
-
-.port-image-overlay {
+/*.port-image-overlay {
   position: relative;
-  overflow: hidden; }
-  .port-image-overlay .port-main-img {
+  overflow: hidden;
+  .port-main-img {
     display: block;
-    width: 100%; }
+    width: 100%;
+  }
+}
 
 .port-cont-overlay {
   color: white;
@@ -238,14 +222,15 @@ ul {
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
-  .port-cont-overlay .title-img-port {
+  -ms-transform: translate(-50%, -50%);
+  .title-img-port {
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
-
+    transform: translate(-50%, -50%);
+  }
+}*/
 /*
     -------------------------
     ----- 09. Contact -------
