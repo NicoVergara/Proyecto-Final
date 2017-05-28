@@ -118,8 +118,11 @@ ul {
     -------------------------
 */
 .services {
-  padding-top: 110px;
-  padding-bottom: 160px; }
+  padding-top: 120px;
+  padding-bottom: 120px; }
+
+.box {
+  margin-bottom: 50px; }
 
 .section-title-serv {
   padding-top: 20px;
