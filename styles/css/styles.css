@@ -216,16 +216,18 @@ ul {
   padding: 0;
   /*margin: 0 0 45px 0;*/
   cursor: default; }
+  .port-filter li {
+    display: inline-block; }
+    .port-filter li a {
+      display: inline-block;
+      margin-right: 20px;
+      margin-bottom: 5px;
+      color: #6b6d6f;
+      text-decoration: none; }
 
-.port-filter li {
-  display: inline-block; }
-
-.port-filter a {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 5px;
-  color: #6b6d6f;
-  text-decoration: none; }
+.port-img-overlay {
+  position: relative;
+  overflow: hidden; }
 
 .port-main-img {
   width: 100%;

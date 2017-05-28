@@ -63,7 +63,7 @@ ul {
 
 .img {
   width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 .page-section  {
@@ -291,23 +291,32 @@ ul {
 	padding: 0;
 	/*margin: 0 0 45px 0;*/
 	cursor: default;
+  li{
+    display:inline-block;
+    a {
+    	display: inline-block;
+    	margin-right: 20px;
+      margin-bottom:5px;
+    	color: #6b6d6f;
+    	text-decoration: none;
+    }
+  }
 }
-.port-filter li{
-  display:inline-block;
+
+.port-item {
+
 }
-.port-filter a{
-	display: inline-block;
-	margin-right: 20px;
-  margin-bottom:5px;
-	color: #6b6d6f;
-	text-decoration: none;
+
+.port-img-overlay {
+  position: relative;
+  overflow: hidden;
 }
 
 .port-main-img {
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    transition: all .3s cubic-bezier(.3,.1,.58,1);
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  transition: all .3s cubic-bezier(.3,.1,.58,1);
 }
 
 /*
