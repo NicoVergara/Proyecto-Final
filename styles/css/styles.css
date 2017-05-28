@@ -29,6 +29,19 @@
     -------------------------
 */
 /* Paleta de Colores */
+/* Gradiente para el fondo */
+.linear-gradient {
+  background: #8adbdb;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #8adbdb 0%, #344e9b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #8adbdb 0%, #344e9b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #8adbdb 0%, #344e9b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8adbdb', endColorstr='#344e9b',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
 /* Tipografía */
 /*
     -------------------------
@@ -96,9 +109,6 @@ ul {
     -------------------------
 */
 .services {
-  background-color: #77C9d4; }
-
-.pg-serv {
   padding-top: 110px;
   padding-bottom: 160px; }
 
@@ -303,19 +313,7 @@ input, textarea, select, .login-select, .form-control {
     ----- 11. Footer --------
     -------------------------
 */
-.bg-g-b-grad {
-  background: #8adbdb;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #8adbdb 0%, #344e9b 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #8adbdb 0%, #344e9b 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #8adbdb 0%, #344e9b 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8adbdb', endColorstr='#344e9b',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
-
-.pg-footer {
+.footer {
   padding: 80px; }
 
 .footer-social {
