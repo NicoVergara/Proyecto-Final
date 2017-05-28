@@ -17,8 +17,10 @@
         05. About Styles
         06. Services Styles
         07. Work Proccess Styles
-        08. Contact Styles
-        09. Footer Styles
+        08. Our Blog Styles
+        09. Newsletter Styles
+        10. Contact Styles
+        11. Footer Styles
 */
 
 /*
@@ -29,11 +31,10 @@
 
 /* Paleta de Colores */
 $feather: #77C9d4;
-$marine: #57bc90;
-$forest: #015249;
+
 $sleek-grey: #eee;
 $icon-grey: #2a2b2f;
-$hover-color: #767676;
+$hover-color: #e6e6e6;
 
 /* Tipografía */
 $font-body: 'Poppins', Arial, Helvetica, sans-serif;
@@ -70,7 +71,6 @@ ul {
   position: relative;
   overflow: hidden;
 }
-
 
 /*
     -------------------------
@@ -116,7 +116,6 @@ ul {
   line-height: 50px;
 }
 
-
 /*
     -------------------------
     ----- 06. Services ------
@@ -131,26 +130,33 @@ ul {
   padding-bottom: 160px;
 }
 
+.section-title-serv {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #fff;
+}
+
+.title-content-service {
+  position: relative;
+  padding: 10px 10px 10px 55px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
 .box-icon {
   position: absolute;
   left: 0;
   color: $icon-grey;
   font-size: 35px;
   top:22px;
+  color: #fff;
 }
 
-.box {
-  /*margin-top: 30px;*/
-  .section-title-serv {
-
-  }
-  .title-content-service {
-    position: relative;
-    padding: 10px 10px 10px 55px;
-    margin-bottom: 5px;
-  }
+.tab-text {
+  color: #fff;
 }
-
 
 /*
     -------------------------
@@ -273,10 +279,21 @@ ul {
   }
 }
 
+/*
+    -------------------------
+    ----- 08. Our Blog ------
+    -------------------------
+*/
 
 /*
     -------------------------
-    ----- 08. Contact -------
+    ----- 09. Newsletter ----
+    -------------------------
+*/
+
+/*
+    -------------------------
+    ----- 10. Contact -------
     -------------------------
 */
 .contact {
@@ -288,8 +305,6 @@ ul {
 }
 
 .section-title-contact {
-  /*padding: 0 !important;
-  margin: 45px !important;*/
   padding-top: 20px;
   padding-bottom: 50px;
   font-weight: normal;
@@ -370,18 +385,25 @@ input, textarea, select, .login-select, .form-control {
   }
 }
 
-
 /*
     -------------------------
-    ----- 09. Footer --------
+    ----- 11. Footer --------
     -------------------------
 */
 .footer {
-  background-color: $sleek-grey;
+
+}
+
+.bg-g-b-grad{
+  background: #8adbdb; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #8adbdb 0%, #344e9b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #8adbdb 0%,#344e9b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #8adbdb 0%,#344e9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8adbdb', endColorstr='#344e9b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .pg-footer {
-  padding: 50px;
+  padding: 80px;
 }
 
 .footer-social {
@@ -390,7 +412,7 @@ input, textarea, select, .login-select, .form-control {
   a {
     padding: 9px !important;
     font-size: 16px;
-    color: #2a2b2f;
+    color: #fff;
     text-decoration: none;
 
     &:hover{
@@ -408,7 +430,7 @@ input, textarea, select, .login-select, .form-control {
   color: $icon-grey;
 
   p {
-    color: #2a2b2f;
+    color: #fff;
   }
 }
 
