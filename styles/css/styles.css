@@ -18,10 +18,8 @@
         05. About Styles
         06. Services Styles
         07. Work Proccess Styles
-        08. Recent Work Styles
-        09. Contact Styles
-        10. Footer Styles
-        11. Media Queries
+        08. Contact Styles
+        09. Footer Styles
 */
 /*
     -------------------------
@@ -70,7 +68,7 @@ ul {
 .about .title-content {
   position: relative;
   padding: 10px 10px 10px 55px;
-  margin-bottom: 7px; }
+  margin-top: 5px; }
 .about .box-about {
   margin-top: 25px; }
   .about .box-about .box-icon-about {
@@ -96,11 +94,7 @@ ul {
     -------------------------
 */
 .services {
-  background-color: #77C9d4;
-  width: 100%;
-  display: block;
-  position: relative;
-  overflow: hidden; }
+  background-color: #77C9d4; }
 
 .pg-serv {
   padding-top: 110px;
@@ -111,14 +105,14 @@ ul {
   left: 0;
   color: #2a2b2f;
   font-size: 35px;
-  top: 23px; }
+  top: 22px; }
 
 .box {
   /*margin-top: 30px;*/ }
   .box .title-content-service {
     position: relative;
     padding: 10px 10px 10px 55px;
-    margin-bottom: 7px; }
+    margin-bottom: 5px; }
 
 /*
     -------------------------
@@ -127,7 +121,7 @@ ul {
 */
 .back-style-cont {
   background-color: #eee;
-  padding: 35px 0; }
+  padding: 70px 0; }
 
 .work-proc2-cont {
   margin: 0 auto;
@@ -208,48 +202,7 @@ ul {
 
 /*
     -------------------------
-    ----- 08. Recent-Work ---
-    -------------------------
-*/
-.port-filter {
-  list-style: none;
-  padding: 0;
-  /*margin: 0 0 45px 0;*/
-  cursor: default; }
-  .port-filter li {
-    display: inline-block; }
-    .port-filter li a {
-      display: inline-block;
-      margin-right: 20px;
-      margin-bottom: 5px;
-      color: #6b6d6f;
-      text-decoration: none; }
-
-.port-img-overlay {
-  position: relative;
-  overflow: hidden; }
-
-.port-main-img {
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1); }
-
-.port-title-cont {
-  margin-bottom: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(0%);
-  transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1); }
-  .port-title-cont h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px; }
-
-/*
-    -------------------------
-    ----- 09. Contact -------
+    ----- 08. Contact -------
     -------------------------
 */
 .pg-contact {
@@ -327,7 +280,7 @@ input, textarea, select, .login-select, .form-control {
 
 /*
     -------------------------
-    ----- 10. Footer --------
+    ----- 09. Footer --------
     -------------------------
 */
 .footer {
