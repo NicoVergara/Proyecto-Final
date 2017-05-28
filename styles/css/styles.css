@@ -144,6 +144,8 @@ ul {
 
 .tab-text {
   color: #fff; }
+  .tab-text p {
+    text-align: justify; }
 
 /*
     -------------------------
