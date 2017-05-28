@@ -38,7 +38,7 @@ $icon-grey: #2a2b2f;
 $hover-color: #767676;
 
 /* Tipografía */
-$font-body: 'Montserrat', sans-serif;
+$font-body: 'Poppins', Arial, Helvetica, sans-serif;
 
 /*
     -------------------------
@@ -317,6 +317,24 @@ ul {
   display: block;
   overflow: hidden;
   transition: all .3s cubic-bezier(.3,.1,.58,1);
+}
+
+.port-overlay-cont {
+
+}
+
+.port-title-cont{
+  margin-bottom: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(0%);
+  transition: all .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 /*

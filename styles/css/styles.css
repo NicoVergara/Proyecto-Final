@@ -41,7 +41,7 @@
     -------------------------
 */
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Poppins", Arial, Helvetica, sans-serif; }
 
 ul {
   list-style: none;
@@ -234,6 +234,18 @@ ul {
   display: block;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1); }
+
+.port-title-cont {
+  margin-bottom: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(0%);
+  transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1); }
+  .port-title-cont h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px; }
 
 /*
     -------------------------
