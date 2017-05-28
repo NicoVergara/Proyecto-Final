@@ -158,52 +158,33 @@ ul {
     ----- 07. Work ----------
     -------------------------
 */
-.back-style-cont {
-  background-color: #eee;
-  padding: 70px 0;
+.work-process {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: $sleek-grey;
 }
 
-.work-proc2-cont {
-  margin: 0 auto;
-  max-width: 320px;
-  padding: 45px 20px 20px 95px;
+.work-proc2-cont{
   position: relative;
-
-  h3 {
-    font-size: 17px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
+  padding: 45px 20px 20px 98px;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 .work-proc2-icon-cont {
-  color: #2a2b2f;
-  font-size: 60px;
-  font-weight: 700;
-  left: 0;
-  line-height: 60px;
   position: absolute;
   top: 55px;
+  left: 0;
+  color: #2a2b2f;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 600;
 }
-
-.work-proc2-a-cont {
-  margin: 0 auto;
-  max-width: 320px;
-  position: relative;
-
-  a {
-    color: black;
-  }
-
-  .work-proc2-a {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 50px;
-  }
-
-  .border-bot {
-    border-bottom: 3px solid black;
-  }
+.work-proc2-cont h3 {
+  color: #2a2b2f;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 /*
