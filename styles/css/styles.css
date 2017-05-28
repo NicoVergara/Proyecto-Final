@@ -54,7 +54,16 @@
     -------------------------
 */
 body {
-  font-family: "Poppins", Arial, Helvetica, sans-serif; }
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  outline: 0;
+  vertical-align: baseline;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #6b6d6f;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100% !important; }
 
 ul {
   list-style: none;
@@ -294,7 +303,7 @@ input, textarea, select, .login-select, .form-control {
   padding: 8px 20px 8px 0; }
 
 .send-button {
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
   background-color: #5c71af;
   padding: 10px 37px;
@@ -306,7 +315,8 @@ input, textarea, select, .login-select, .form-control {
   border-radius: 4px;
   letter-spacing: 0.5px; }
   .send-button:hover {
-    background-color: #e6e6e6; }
+    background-color: #eee;
+    color: #2a2b2f; }
 
 /*
     -------------------------
