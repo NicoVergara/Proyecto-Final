@@ -251,7 +251,7 @@ ul {
 
 .ci-text h3 {
   color: #2a2b2f;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 18px;
   line-height: 26px;
   margin: 0;
@@ -266,7 +266,7 @@ ul {
   margin-top: 10px;
 
   textarea {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -276,7 +276,7 @@ ul {
   box-shadow: none !important;
 }
 
-input, textarea, select, .login-select, .form-control {
+.form-control, input, select, textarea {
   border: none;
   border-bottom: 2px solid #ccc;
   border-radius: 0px;
