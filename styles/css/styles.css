@@ -89,6 +89,20 @@ ul {
     ----- 05. About ---------
     -------------------------
 */
+.about {
+  padding-top: 140px;
+  padding-bottom: 140px; }
+
+.title-about {
+  font-size: 32px;
+  line-height: 40px;
+  color: #323336; }
+
+.text-about {
+  padding-bottom: 10px; }
+  .text-about p {
+    text-align: justify; }
+
 /*
     -------------------------
     ----- 06. Services ------
