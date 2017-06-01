@@ -105,6 +105,11 @@ ul {
     ----- 03. Logos ---------
     -------------------------
 */
+.logo {
+  padding: 40px; }
+  .logo .logo-item {
+    text-align: center; }
+
 /*
     -------------------------
     ----- 06. Services ------
