@@ -107,8 +107,9 @@ ul {
 */
 .logo {
   padding-bottom: 40px; }
-  .logo .logo-item {
-    text-align: center; }
+
+.logo-item {
+  text-align: center; }
 
 /*
     -------------------------
