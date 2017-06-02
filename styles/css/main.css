@@ -239,16 +239,16 @@ ul {
   border-radius: 0px;
   background: transparent;
   color: #8d8d98;
-  font-size: 13px;
+  font-size: 14px;
   margin: 0;
   outline: medium none;
   padding: 8px 20px 8px 0; }
 
 .send-button {
-  font-size: 13px;
+  font-size: 12px;
   color: #fff;
   background-color: #5c71af;
-  padding: 10px 37px;
+  padding: 10px 30px;
   margin-top: 40px !important;
   display: inline-block;
   outline: none;
