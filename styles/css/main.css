@@ -52,12 +52,16 @@
     -------------------------
 */
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  outline: 0;
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
   vertical-align: baseline;
   font-size: 14px;
   line-height: 25px;
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  font-weight: normal;
   color: #6b6d6f;
   background-color: #fff;
   -webkit-font-smoothing: antialiased !important;
