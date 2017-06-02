@@ -281,10 +281,10 @@ ul {
 .right {
   float: right; }
 
-.footer-icon {
-  font-size: 14px;
+.footer-copy {
+  font-size: 13px;
   color: #2a2b2f; }
-  .footer-icon p {
+  .footer-copy p {
     color: #fff; }
 
 .left {
