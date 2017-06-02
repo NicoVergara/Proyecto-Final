@@ -240,13 +240,13 @@ ul {
 
 .form-control, input, select, textarea {
   border: none;
-  border-bottom: 2px solid #ccc;
-  border-radius: 0px;
-  background: transparent;
-  color: #8d8d98;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  background: 0 0;
+  color: #323336;
   font-size: 14px;
   margin: 0;
-  outline: medium none;
+  outline: 0;
   padding: 8px 20px 8px 0; }
 
 .send-button {
@@ -260,10 +260,10 @@ ul {
   position: relative;
   border: none;
   border-radius: 4px;
-  letter-spacing: 0.5px; }
+  letter-spacing: 0.5px;
+  transition: all .3s ease 0s; }
   .send-button:hover {
-    background-color: #eee;
-    color: #2a2b2f; }
+    background-color: #323336; }
 
 /*
     -------------------------
