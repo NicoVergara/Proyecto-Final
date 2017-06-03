@@ -164,7 +164,7 @@ header {
 .navbar-nav > li > a:link,
 .navbar-nav > li > a:visited {
   color: white !important;
-  text-transform: uppercase !important;
+  /*text-transform: uppercase !important;*/
   font-size: 1.2rem;
   border-bottom: 1px solid transparent !important;
   padding: 0;
@@ -182,7 +182,7 @@ header {
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:active {
   color: white !important;
-  text-transform: uppercase !important;
+  /*text-transform: uppercase !important;*/
   border-bottom: 1px solid white !important;
   transition: border-bottom 1s;
   padding: 0;
@@ -196,7 +196,7 @@ header {
 #main-heading {
   font-size: 8rem;
   font-weight: 300;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   width: 80vw; }
 
 #main-subheading {
