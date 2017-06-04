@@ -173,11 +173,17 @@ if it's not present, don't show loader */
     -------------------------
 */
 header {
-  background-image: linear-gradient(rgba( 52, 153, 219, 0.8), rgba( 52, 153, 219, 0.8)), url('https://samiralibabic.github.io/portfolio/img/pexels-photo-min.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 500px;
+}
+
+.container-menu {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .navbar,
@@ -190,8 +196,7 @@ header {
 .navbar-nav > li > a:link,
 .navbar-nav > li > a:visited {
   color: white !important;
-  /*text-transform: uppercase !important;*/
-  font-size: 1.2rem;
+  font-size: 14px;
   border-bottom: 1px solid transparent !important;
   padding: 0;
   margin: 15px;
@@ -199,19 +204,12 @@ header {
 
 .navbar-brand {
   color: white !important;
-  font-size: 1.2rem;
-}
-
-.navbar-brand .glyphicon {
-  color: white !important;
-  margin-left: 1rem;
-  font-size: 2rem;
+  font-size: 14px;
 }
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:active {
   color: white !important;
-  /*text-transform: uppercase !important;*/
   border-bottom: 1px solid white !important;
   transition: border-bottom 1s;
   padding: 0;
@@ -227,7 +225,6 @@ header {
 #main-heading {
   font-size: 8rem;
   font-weight: 300;
-  /*text-transform: uppercase;*/
   width: 80vw;
 }
 
@@ -263,6 +260,7 @@ header {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white !important;
 }
+
 
 /*
     -------------------------
