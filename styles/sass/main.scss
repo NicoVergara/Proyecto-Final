@@ -12,15 +12,16 @@
 
         01. Variables
         02. Mixins
-        03. Global Styles
-        04. Loader Style
-        05. Header Styles
-        06. About Styles
-        07. Logos Styles
-        08. Services Styles
-        09. Work Proccess Styles
-        10. Contact Styles
-        11. Footer Styles
+        03. Global
+        04. Loader
+        05. Header
+        06. About
+        07. Features
+        08. Logos
+        09. Services
+        10. Work Proccess
+        11. Contact
+        12. Footer
 */
 
 
@@ -288,7 +289,21 @@ header {
 
 /*
     -------------------------
-    ----- 07. Logos ---------
+    ----- 07. Features ------
+    -------------------------
+*/
+.features {
+
+}
+
+.features.img {
+
+}
+
+
+/*
+    -------------------------
+    ----- 08. Logos ---------
     -------------------------
 */
 .logo {
@@ -302,7 +317,7 @@ header {
 
 /*
     -------------------------
-    ----- 08. Services ------
+    ----- 09. Services ------
     -------------------------
 */
 .services {
@@ -352,7 +367,7 @@ header {
 
 /*
     -------------------------
-    ----- 09. Work ----------
+    ----- 10. Work ----------
     -------------------------
 */
 .work-process {
@@ -388,7 +403,7 @@ header {
 
 /*
     -------------------------
-    ----- 10. Contact -------
+    ----- 11. Contact -------
     -------------------------
 */
 .contact {
@@ -481,7 +496,7 @@ header {
 
 /*
     -------------------------
-    ----- 11. Footer --------
+    ----- 12. Footer --------
     -------------------------
 */
 .footer {
