@@ -84,6 +84,16 @@ ul {
   position: relative;
   overflow: hidden; }
 
+.p-80-cont {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.mb-60-cont {
+  margin-bottom: 60px !important; }
+
+p {
+  margin: 0 0 10px; }
+
 /*
     -------------------------
     ----- 04. Loader --------
@@ -247,14 +257,38 @@ header {
 .features {
   background-color: #f5f5f5; }
 
+.feature-text {
+  margin-top: 0;
+  margin-bottom: 40px; }
+
+.feature-text h1 {
+  font-size: 32px;
+  line-height: 45px;
+  margin: 40px 0 32px; }
+
+.feature-box {
+  position: relative;
+  padding-left: 47px;
+  padding-bottom: 10px; }
+
+.feature-box-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  color: #323336;
+  font-size: 30px; }
+
+.feature-box h3 {
+  color: #323336;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
 /*
     -------------------------
     ----- 08. Logos ---------
     -------------------------
 */
-.logo {
-  padding-bottom: 40px; }
-
 .logo-item {
   text-align: center; }
 
