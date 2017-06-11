@@ -4,7 +4,7 @@
     Repositorio: https://github.com/NicoVergara/Proyecto-Final
 
     Descripción: Este archivo contiene todos los estilos asociados con la página.
-    Se compila utilizando Sass y envia a la carpeta / css que luego se carga en
+    Se compila utilizando Sass y se envia a la carpeta / css que luego se carga en
     la página.
 */
 /*
@@ -80,34 +80,19 @@ body {
 	-webkit-text-size-adjust: 100% !important;
 }
 
-ul {
-  list-style: none;
-  text-decoration: none;
-}
+ul {list-style: none; text-decoration: none;}
+p {margin: 0 0 10px;}
 
-p {
-  margin: 0 0 10px;
-}
+.img {width: 100%;height: auto;}
 
-.img {
-  width: 100%;
-  height: auto;
-}
+.p-80-cont {padding-top: 80px; padding-bottom: 80px;}
+.mb-60-cont {margin-bottom: 60px !important;}
 
 .page-section {
   width: 100%;
   display: block;
   position: relative;
   overflow: hidden;
-}
-
-.p-80-cont {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.mb-60-cont {
-  margin-bottom: 60px !important;
 }
 
 
