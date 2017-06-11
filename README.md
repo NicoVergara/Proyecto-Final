@@ -16,6 +16,8 @@ Este repositorio contiene un template para el desarrollo de un portafolio, es mu
 - [Navbar](#navbar)
 - [Header Section](#header-section)
 - [About Section](#about-section)
+- [Features Section](#features-section)
+- [Logos Section](#logos-section)
 - [Services Section](#services-section)
 - [Work Proccess Section](#work_proccess-section)
 - [Contact Section](#contact-section)
