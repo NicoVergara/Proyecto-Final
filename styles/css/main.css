@@ -82,8 +82,8 @@ p {
   height: auto; }
 
 .pt-60-cont {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
 
 .pt-80-cont {
   padding-top: 80px;
@@ -92,6 +92,10 @@ p {
 .pt-100-cont {
   padding-top: 100px;
   padding-bottom: 100px; }
+
+.pt-120-cont {
+  padding-top: 120px;
+  padding-bottom: 120px; }
 
 .mb-60-cont {
   margin-bottom: 60px !important; }
