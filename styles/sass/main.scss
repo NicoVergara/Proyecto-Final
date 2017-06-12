@@ -85,7 +85,10 @@ p {margin: 0 0 10px;}
 
 .img {width: 100%;height: auto;}
 
-.p-80-cont {padding-top: 80px; padding-bottom: 80px;}
+.pt-60-cont {padding-top: 40px; padding-bottom: 40px;}
+.pt-80-cont {padding-top: 80px; padding-bottom: 80px;}
+.pt-100-cont {padding-top: 100px; padding-bottom: 100px}
+
 .mb-60-cont {margin-bottom: 60px !important;}
 
 .page-section {
@@ -266,11 +269,6 @@ header {
     ----- 06. About ---------
     -------------------------
 */
-.about {
-  padding-top: 140px;
-  padding-bottom: 140px;
-}
-
 .title-about {
   font-size: 32px;
   line-height: 40px;
@@ -290,11 +288,6 @@ header {
     ----- 07. Website -------
     -------------------------
 */
-.pt-80-cont {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .pb-20 {
   padding-bottom: 20px;
 }
@@ -324,10 +317,6 @@ header {
     ----- 08. Logos ---------
     -------------------------
 */
-.logo {
-
-}
-
 .logo-item {
   text-align: center;
 }
@@ -338,11 +327,6 @@ header {
     ----- 09. Services ------
     -------------------------
 */
-.services {
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
-
 .section-title-serv {
   padding-top: 20px;
   padding-bottom: 50px;
@@ -386,8 +370,6 @@ header {
     -------------------------
 */
 .work-process {
-  padding-top: 80px;
-  padding-bottom: 80px;
   background-color: $sleek-grey;
 }
 
@@ -514,8 +496,6 @@ header {
     ----- 12. Footer --------
     -------------------------
 */
-.footer {}
-
 .footer-social {
   padding-bottom: 7px;
 
