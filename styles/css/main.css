@@ -17,8 +17,8 @@
         04. Loader
         05. Header
         06. About
-        07. Features
-        08. Logos
+        07. Logos
+        08. Features
         09. Services
         10. Work Proccess
         11. Contact
@@ -251,7 +251,15 @@ header {
 
 /*
     -------------------------
-    ----- 07. Features ------
+    ----- 07. Logos ---------
+    -------------------------
+*/
+.logo-item {
+  text-align: center; }
+
+/*
+    -------------------------
+    ----- 08. Features ------
     -------------------------
 */
 .features {
@@ -283,14 +291,6 @@ header {
   font-size: 16px;
   margin-bottom: 5px;
   margin-top: 5px; }
-
-/*
-    -------------------------
-    ----- 08. Logos ---------
-    -------------------------
-*/
-.logo-item {
-  text-align: center; }
 
 /*
     -------------------------
