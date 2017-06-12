@@ -17,8 +17,8 @@
         04. Loader
         05. Header
         06. About
-        07. Logos
-        08. Features
+        07. Website
+        08. Logos
         09. Services
         10. Work Proccess
         11. Contact
@@ -251,46 +251,16 @@ header {
 
 /*
     -------------------------
-    ----- 07. Logos ---------
+    ----- 07. Website -------
+    -------------------------
+*/
+/*
+    -------------------------
+    ----- 08. Logos ---------
     -------------------------
 */
 .logo-item {
   text-align: center; }
-
-/*
-    -------------------------
-    ----- 08. Features ------
-    -------------------------
-*/
-.features {
-  background-color: #f5f5f5; }
-
-.feature-text {
-  margin-top: 0;
-  margin-bottom: 40px; }
-
-.feature-text h1 {
-  font-size: 32px;
-  line-height: 45px;
-  margin: 40px 0 32px; }
-
-.feature-box {
-  position: relative;
-  padding-left: 47px;
-  padding-bottom: 10px; }
-
-.feature-box-icon {
-  position: absolute;
-  top: 2px;
-  left: 0;
-  color: #323336;
-  font-size: 30px; }
-
-.feature-box h3 {
-  color: #323336;
-  font-size: 16px;
-  margin-bottom: 5px;
-  margin-top: 5px; }
 
 /*
     -------------------------
