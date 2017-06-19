@@ -18,11 +18,12 @@
         05. Header
         06. About
         07. Website
-        08. Logos
-        09. Services
-        10. Work Proccess
-        11. Contact
-        12. Footer
+        08. Features
+        09. Logos
+        10. Services
+        11. Work Proccess
+        12. Contact
+        13. Footer
 */
 /*
     -------------------------
@@ -283,7 +284,28 @@ header {
 
 /*
     -------------------------
-    ----- 08. Logos ---------
+    ----- 08. Features ------
+    -------------------------
+*/
+.features-main-text {
+  margin: 0 auto;
+  padding: 145px 50px;
+  max-width: 500px; }
+
+.features-title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px; }
+
+.features-cont {
+  margin-top: 30px; }
+
+.features-btn {
+  margin-top: 30px !important; }
+
+/*
+    -------------------------
+    ----- 09. Logos ---------
     -------------------------
 */
 .logo-item {
@@ -291,7 +313,7 @@ header {
 
 /*
     -------------------------
-    ----- 09. Services ------
+    ----- 10. Services ------
     -------------------------
 */
 .section-title-serv {
@@ -326,7 +348,7 @@ header {
 
 /*
     -------------------------
-    ----- 10. Work ----------
+    ----- 11. Work ----------
     -------------------------
 */
 .work-process {
@@ -355,7 +377,7 @@ header {
 
 /*
     -------------------------
-    ----- 11. Contact -------
+    ----- 12. Contact -------
     -------------------------
 */
 .contact {
@@ -432,7 +454,7 @@ header {
 
 /*
     -------------------------
-    ----- 12. Footer --------
+    ----- 13. Footer --------
     -------------------------
 */
 .footer-social {
