@@ -19,11 +19,10 @@
         06. About
         07. Website
         08. Features
-        09. Logos
-        10. Services
-        11. Work Proccess
-        12. Contact
-        13. Footer
+        09. Services
+        10. Work Proccess
+        11. Contact
+        12. Footer
 */
 /*
     -------------------------
@@ -97,6 +96,10 @@ p {
 .pt-120-cont {
   padding-top: 120px;
   padding-bottom: 120px; }
+
+.pt-140-cont {
+  padding-top: 140px;
+  padding-bottom: 140px; }
 
 .mb-60-cont {
   margin-bottom: 60px !important; }
@@ -309,15 +312,7 @@ header {
 
 /*
     -------------------------
-    ----- 09. Logos ---------
-    -------------------------
-*/
-.logo-item {
-  text-align: center; }
-
-/*
-    -------------------------
-    ----- 10. Services ------
+    ----- 09. Services ------
     -------------------------
 */
 .section-title-serv {
@@ -352,7 +347,7 @@ header {
 
 /*
     -------------------------
-    ----- 11. Work ----------
+    ----- 10. Work ----------
     -------------------------
 */
 .work-process {
@@ -381,7 +376,7 @@ header {
 
 /*
     -------------------------
-    ----- 12. Contact -------
+    ----- 11. Contact -------
     -------------------------
 */
 .contact {
@@ -458,7 +453,7 @@ header {
 
 /*
     -------------------------
-    ----- 13. Footer --------
+    ----- 12. Footer --------
     -------------------------
 */
 .footer-social {
